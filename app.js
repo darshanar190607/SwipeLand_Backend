@@ -25,7 +25,7 @@ const mongoose=require("mongoose");
 const app=express();
 const cors = require('cors');                                                                        
 app.use(cors({
-  origin: "https://swipe-lend-frontend.vercel.app", 
+  origin: "https://swipe-lend-frontend-git-main-darshanar190607s-projects.vercel.app", 
   methods: ["GET", "POST", "PUT", "DELETE"],
 }));
 app.use(express.json())
